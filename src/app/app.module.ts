@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { GerirsalasComponent } from './gerirsalas/gerirsalas.component';
+import { HttpSalasService } from './gerirsalas/httpsalas.service';
 
 @NgModule({
   imports: [
@@ -30,5 +31,6 @@ import { GerirsalasComponent } from './gerirsalas/gerirsalas.component';
     GerirsalasComponent,
   ],
   bootstrap: [AppComponent],
+  providers: [HttpSalasService],
 })
 export class AppModule {}

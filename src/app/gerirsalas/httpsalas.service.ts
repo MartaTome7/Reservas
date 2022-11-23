@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable()
-export class HttpsalasService {
+export class HttpSalasService {
   private urlGetAll = 'https://localhost:44387/api/Salas';
 
   constructor(private http: HttpClient) {}

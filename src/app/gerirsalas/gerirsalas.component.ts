@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpsalasService } from './httpsalas.service';
+import { HttpSalasService } from './httpsalas.service';
 
 @Component({
   selector: 'gerirsalas',
@@ -9,7 +9,7 @@ import { HttpsalasService } from './httpsalas.service';
 export class GerirsalasComponent implements OnInit {
   value = 'Clear me';
 
-  constructor(private httpService: HttpsalasService) {}
+  constructor(private httpSalasService: HttpSalasService) {}
 
   ngOnInit() {}
 
