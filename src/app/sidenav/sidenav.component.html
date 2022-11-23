@@ -12,11 +12,20 @@
 
     <p>
       Option selected:
-      {{ menus.selectedOptions.hasValue() ? showOption(menus) : 'None' }}
+      {{ showOption(menus) }}
     </p>
   </mat-sidenav>
 
   <mat-sidenav-content class="side-nav-content">
     Main content
+    <p *ngIf="menuGerirReunioes">
+      Menu Gerir Reunioes
+    </p>
+    <p *ngIf="menuGerirSalas">
+      Menu Gerir Salas
+    </p>
+    <p *ngIf="menuGerirRecursos">
+      Menu Gerir Recursos
+    </p>
   </mat-sidenav-content>
 </mat-sidenav-container>

@@ -7,10 +7,15 @@
   background: #eee;
 }
 
-.side-nav{
-  background-color: rgba(255, 248, 220, 0.753);
+.side-nav {
+  background-color: gainsboro;
+  width: 250px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
-.side-nav-content{
+.side-nav-content {
   background-color: cornsilk;
+  padding-left: 10px;
+  padding-top: 10px;
 }

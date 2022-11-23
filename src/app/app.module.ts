@@ -9,6 +9,7 @@ import { MatListModule } from '@angular/material/list';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { GerirsalasComponent } from './gerirsalas/gerirsalas.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     MatSidenavModule,
     MatListModule,
   ],
-  declarations: [AppComponent, HelloComponent, SidenavComponent],
+  declarations: [AppComponent, HelloComponent, SidenavComponent, GerirsalasComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
