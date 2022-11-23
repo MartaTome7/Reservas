@@ -21,7 +21,12 @@ import { GerirsalasComponent } from './gerirsalas/gerirsalas.component';
     MatSidenavModule,
     MatListModule,
   ],
-  declarations: [AppComponent, HelloComponent, SidenavComponent, GerirsalasComponent],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    SidenavComponent,
+    GerirsalasComponent,
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
