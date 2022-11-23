@@ -18,14 +18,11 @@
 
   <mat-sidenav-content class="side-nav-content">
     Main content
-    <p *ngIf="menuGerirReunioes">
-      Menu Gerir Reunioes
-    </p>
-    <p *ngIf="menuGerirSalas">
-      Menu Gerir Salas
-    </p>
-    <p *ngIf="menuGerirRecursos">
-      Menu Gerir Recursos
-    </p>
+    <div *ngIf="menuGerirReunioes"><h2>Menu Gerir Reunioes</h2></div>
+    <div *ngIf="menuGerirSalas">
+      <h2>Menu Gerir Salas</h2>
+      <gerirsalas></gerirsalas>
+    </div>
+    <div *ngIf="menuGerirRecursos"><h2>Menu Gerir Recursos</h2></div>
   </mat-sidenav-content>
 </mat-sidenav-container>

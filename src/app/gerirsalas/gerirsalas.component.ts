@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-gerirsalas',
+  selector: 'gerirsalas',
   templateUrl: './gerirsalas.component.html',
-  styleUrls: ['./gerirsalas.component.css']
+  styleUrls: ['./gerirsalas.component.css'],
 })
 export class GerirsalasComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit() {}
 
-  ngOnInit() {
+  pesquisarSala(){
+    //
   }
-
 }
