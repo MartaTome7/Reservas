@@ -5,6 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatInputModule } from '@angular/material/input';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
@@ -20,6 +21,7 @@ import { GerirsalasComponent } from './gerirsalas/gerirsalas.component';
     HttpClientModule,
     MatSidenavModule,
     MatListModule,
+    MatInputModule,
   ],
   declarations: [
     AppComponent,

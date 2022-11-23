@@ -1,0 +1,50 @@
+.text{
+  font-size: medium;
+  padding: 5px;
+}
+
+.row {
+  width: 100%;
+}
+
+.buttonPesquisarSala {
+  margin-left: 20px;
+  font-size: medium;
+  padding: 5px;
+}
+
+.buttonMostrarSalas {
+  position: absolute;
+  right: 20px;
+  font-size: medium;
+  padding: 5px;
+}
+
+.table{
+  margin-top: 20px;
+  width: 100%;
+  font-size: medium;
+}
+
+thead td{
+  background-color: rgba(184, 137, 50, 0.63);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  width: 20%;
+}
+
+tbody tr td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+tbody tr:nth-child(odd) td{
+  background-color: rgba(136, 206, 208, 0.299);
+  color: grey;
+}
+
+tbody tr:nth-child(even) td{
+  background-color: rgb(246, 255, 255);
+  color: grey;
+}

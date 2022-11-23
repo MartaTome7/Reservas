@@ -1,10 +1,39 @@
-<label for="numeroSala">Número da Sala: </label>
-<input
-  id="numeroSala"
-  name="numeroSala"
-  type="text"
-  placeholder="introduzir número da sala"
-  #numeroSala
-/>
-<button type="button" id="pesquisarSalas" (click) = "pesquisarSala()">Pesquisar</button>
+<div class="row">
+  <label class="text" for="numeroSala">Número da Sala: </label>
+  <input
+    class="text"
+    id="numeroSala"
+    name="numeroSala"
+    type="text"
+    placeholder="introduzir número da sala"
+    #numeroSala
+  />
+  <button
+    class="buttonPesquisarSala"
+    type="button"
+    id="pesquisarSala"
+    (click)="getSalas()"
+  >
+    Pesquisar
+  </button>
 
+  <button
+    class="buttonMostrarSalas"
+    type="button"
+    id="mostrarSalas"
+    (click)="getAllSalas()"
+  >
+    Mostrar Todas
+  </button>
+</div>
+
+<table class="table">
+  <thead>
+    <tr>
+      <td>Sala ID</td>
+      <td>Número</td>
+      <td>Capacidade</td>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>

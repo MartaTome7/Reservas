@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpsalasService } from './httpsalas.service';
 
 @Component({
   selector: 'gerirsalas',
@@ -6,11 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gerirsalas.component.css'],
 })
 export class GerirsalasComponent implements OnInit {
-  constructor() {}
+  value = 'Clear me';
+
+  constructor(private httpService: HttpsalasService) {}
 
   ngOnInit() {}
 
-  pesquisarSala(){
+  getSalas() {
+    //
+  }
+
+  getAllSalas() {
     //
   }
 }
